@@ -1,0 +1,90 @@
+<!DOCTYPE HTML>
+<center>
+    <h1> Presiyan's Site <h1>
+</center>
+
+<body>
+    <form action="" method="get">
+        <fieldset>
+            <legend>Personal info</legend>
+            <table>
+                <tr>
+                <th align="left">Full name *</th>
+                <td align="left"><input type="text" placeholder="First"> <input type="text" placeholder="Last"></td>
+                </tr>
+                <tr>
+                <th align="left">Personal ID *</th>
+                <td align="left"> <input type="text" maxlength="10"> Personal ID must be 10 digits.</td>
+                </tr>
+                <tr>
+                    <th align="left">Date of Birth *</th>
+                    <th align="left"><input type="date"></th>
+                </tr>
+                <tr>
+                    <th align="left">Email Adress *</th>
+                    <th align="left"><input type="email" placeholder="email@site.com"></th>
+                </tr>
+                <tr>
+                    <th align="left">Phone Number *</th>
+                    <th align="left"><input type = "tel"></th>
+                </tr>
+                <tr>
+                    <th align="left">City *</th>
+                    <th align="left"><select name="city">
+                        <option value="" disabled>Избери град</option>
+                        <option value="sofia">София</option>
+                        <option value="tarnova" selected>Велико Търново</option>
+                        <option value="plovdiv">Пловдив</option>
+                    </select>
+                    </select></th>
+                </tr>
+                <tr>
+                    <th align="left">Gender *</th>
+                    <th align="left">
+                    <label>Male
+                    <input id="r1" name="radio" type="radio" value="1"></label>
+                    <label>Female
+                    <input id="r2" name="radio" type="radio" value="2"></label>
+                    </th>
+                </tr>
+                <tr>
+                    <th align="left">School/College/Institution *</th>
+                    <th align="left"><input type="text"></th>
+                </tr>
+                <tr>
+                    <th align="left">Grade/Year *</th>
+                    <th align="left"><input type="text"></th>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>Profile information</legend>
+            <table>
+                <tr>
+                    <th align="left">Username *</th>
+                    <th align="left"><input type="text"></th>
+                </tr>
+                <tr>
+                    <th align="left">Password *</th>
+                    <td align="left"><input type="password" minlength="6"> Password must be a minimum of 6 characters</td>
+                </tr>
+                <tr>
+                    <th align="left">Confirm Password *</th>
+                    <th align="left"><input type="text"></th>
+                </tr>
+                <tr>
+                    <th align="left">Choose a profile picture</th>
+                    <td align="left"><input type="file" accept="image/png, image/jpeg">Allowed formats are png or jpg</td>
+                </tr>
+                <tr>
+                    <th align="left">Newsletter *</th>
+                    <td align="left"><input type="checkbox">I agree to receive messages about news and promotions</td>
+                </tr>
+            </table>
+        </fieldset>
+        <br>
+        <center><button type="submit">Register now</button></center>
+    </form>
+</body>
+
+</HTML>
