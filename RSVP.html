@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RSVP</title>
+</head>
+
+<body>
+    <h1>Restaurant Reservation</h1>
+    <br>
+
+    <form action="" method="post">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <table>
+                <tbody>
+                    <tr>
+                        <th align="left">
+                            <p>Full name *</p>
+                        </th>
+                        <td>
+                            <input type="text" name="fullname" placeholder="fullname" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th align="left">
+                            <p>Email *</p>
+                        </th>
+                        <td>
+                            <input type="email" name="email" placeholder="email" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th align="left">
+                            <p>Phone Number *</p>
+                        </th>
+                        <td>
+                            <input type="tel" name="phonenumber" placeholder="### ### ###" required>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>Reservation Information</legend>
+            <table>
+                <tbody>
+                    <tr>
+                        <th align="left">
+                            <p>Reservation Date *</p>
+                        </th>
+                        <td>
+                            <input type="date" name="date"  required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th align="left">
+                            <p>Reservation Time *</p>
+                        </th>
+                        <td>
+                            <input type="time" name="time"  required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th align="left">
+                            <p>Place *</p>
+                        </th>
+                        <td>
+                            <input type="radio" name="radio1" > First Floor
+                            <input type="radio" name="radio1" > Second Floor
+                            <input type="radio" name="radio1" > Terrace
+                        </td>
+                    </tr>
+                    <tr>
+                        <th align="left">
+                            <p>Table *</p>
+                        </th>
+                        <td>
+                            <select name = "table"> 
+                            <option value = "table" disabled selected>Choose Table</option>
+                            <option value = "table1">First Table</option>
+                            <option value = "table2">Second Table</option>
+                            <option value = "table3">Third Table</option>
+                            <option value = "table4">Fourth Table</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th align="left">
+                            <p>Number of people *</p>
+                        </th>
+                        <td>
+                            <input type="number" name="number" min="2" required>
+                        </td>
+                </tbody>
+            </table>
+        </fieldset>
+        <br><center><button type="submit">Submit your reservation</button></center>
+    </form>
+
+</body>
+
+</html>
